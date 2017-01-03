@@ -126,3 +126,121 @@ div.case-study-images img {
 .case-study p a .arrow {
     font-size: 12px;
 }
+
+
+/* Contact Us page */
+#main.site-main {
+    margin-top: 3em;
+} 
+#primary.site-content {
+//    width: 60%;
+    width: 630px;
+}
+#main #primary #content p {
+    font-size: 16px;
+}
+.nf-form-fields-required {
+    display: none;
+}
+span.ninja-forms-req-symbol {
+    display: none;
+}
+div.nf-field-container.textbox-container, div.nf-field-container.email-container {
+    display: inline-block;
+    clear: none;
+    width: 48%;
+}
+div.nf-field-container.textbox-container {
+margin-right: 3%;
+}
+.nf-field-label label {
+    font-size: 14px;
+}
+
+input[type="button"].ninja-forms-field.nf-element {
+    float: right;
+    width: 33%;
+    height: 50px;
+    background-color: #45ac9d;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 4em;
+}
+input[type="text"].ninja-forms-field.nf-element, input[type="email"].ninja-forms-field.nf-element {
+    height: 40px;
+}
+
+/* Submitted Contact Us form styles */
+.nf-response-msg p:first-of-type {
+    color: #45ac9d;
+    font-weight: bold;
+}
+
+
+/* About page */
+.about-banner {
+	background: url(img/taxi-photo.jpg) no-repeat scroll center bottom / cover rgba(0, 0, 0, 0);
+    height: 285px;
+    margin-top: -51px;
+    text-align: center;
+}
+.about-banner p {
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+    width: 550px;
+    margin: 0 auto;
+    padding: 70px 0;
+    line-height: 1.4em;
+}
+.about-banner p a {
+    color: #45ac9d;
+}
+
+.about-page-default-content h3 {
+	    font-size: 17px;
+}
+
+.about-page-content-block {
+    margin-left: -12%;
+    margin-right: -12%;
+    margin-top: 40px;
+}
+.about-page-content-block .block-text {
+    float: right;
+    width: 67%;
+}
+.about-page-content-block:nth-of-type(odd) .block-text {
+    float: left;
+    margin-right: 30px;
+}
+.about-page-content-block .block-img {
+    padding-top: 20px;
+}
+
+.contact-us-container {
+    margin: 0 auto;
+    border-top: 1px dotted #e3e1e1;
+	padding-top: 40px;
+    margin-top: 75px;
+    width: 960px;
+    text-align: center;
+}
+.contact-us-container p {
+    display: inline-block;
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.contact-us-button {
+    display: inline-block;
+    background-color: #47aa9c;
+    margin-left: 35px;
+    padding: 10px 55px;
+}
+.contact-us-button a {
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+}
