@@ -244,3 +244,34 @@ input[type="text"].ninja-forms-field.nf-element, input[type="email"].ninja-forms
     font-weight: bold;
     font-size: 20px;
 }
+
+/* 404 Error Page */
+.page-404-container {
+    margin-bottom: 220px;
+}
+.page-404-title {
+//    color: #45ac9d;
+	color: #f7a915;
+    font-size: 70px;
+}
+.page-404-container p {
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 28px;
+}
+.page-404-links ul {
+    list-style: none;
+}
+.page-404-links ul li {    
+    display: inline;
+    margin: 8px;
+    margin-right: 20px;
+    padding: 7px 20px;
+    background-color: #45ac9d;
+}
+.page-404-links ul li a {    
+    color: white;
+	font-weight: bold;
+}
+
+

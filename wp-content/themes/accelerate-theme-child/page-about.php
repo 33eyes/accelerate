@@ -25,7 +25,6 @@ $postid = $wp_query->post->ID;
 	<div id="primary" class="site-content">
 		<div id="content" role="main">
 			<?php while ( have_posts() ) : the_post();
-			$banner_text = get_field("banner_text");
 			$content_block_1_title = get_field("content_block_1_title");
 			$content_block_1_text = get_field("content_block_1_text");
 			$content_block_1_image = get_field("content_block_1_image");
@@ -38,7 +37,6 @@ $postid = $wp_query->post->ID;
 			$content_block_4_title = get_field("content_block_4_title");
 			$content_block_4_text = get_field("content_block_4_text");
 			$content_block_4_image = get_field("content_block_4_image");
-			$contact_us_blurb = get_field("contact_us_blurb");
 			
 			$size = "full"; 
 			?>
