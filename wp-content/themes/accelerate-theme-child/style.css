@@ -19,6 +19,7 @@
 /* Homepage Styles */
 .home-page {
     background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+	margin-top: -3em;
 }
 
 .button {
