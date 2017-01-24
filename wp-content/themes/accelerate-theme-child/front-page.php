@@ -70,6 +70,7 @@ get_header(); ?>
 		<div id="secondary" class="widget-area" role="complementary">
 			<?php dynamic_sidebar( 'sidebar-2' ); ?>
 		</div>
+		<a class="follow-us-link" href="https://twitter.com/intent/follow?original_referer=http%3A%2F%2Flocalhost%3A10297%2F&ref_src=twsrc%5Etfw&region=follow_link&screen_name=wordpress&tw_p=followbutton" target="_blank">Follow US <span>&rsaquo;</span></a>
 	</section>
 	<?php endif; ?>
 </div>
